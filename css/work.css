@@ -196,10 +196,14 @@
     .work .mob{
         margin-left: 5px;
     }
-    .technology{
-        height: 850px !important;
+    /* .technology{
+        height: 1991 !important;
         background: #00a8e8;
     }
+    .technology_section{
+        height: 2191 !important;
+        background: #00a8e8;
+    } */
   }
 
 @media only screen and (min-width: 720px) {
