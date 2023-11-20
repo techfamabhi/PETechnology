@@ -77,6 +77,9 @@ a:link { text-decoration: none; }
 
 
 
+ul.nav li.dropdown:hover ul.dropdown-menu{ display: block; }
+
+
 /* end of navbar */
 
 
@@ -235,6 +238,11 @@ a:link { text-decoration: none; }
                 transform: translateY(-15px);
       }
     }
+    .testing_card{
+         -webkit-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+      height: 310px;
+    }
     
     .service-wrapper {
       -webkit-transition: all 0.5s ease;
@@ -305,7 +313,7 @@ a:link { text-decoration: none; }
 
 
     #service_section_main{
-        margin-top: 150px;
+        margin-top: 30px;
     }
 
 
@@ -688,6 +696,38 @@ text-align: center;
       color: #fff;
     }
 
+/* 
+.start_icon{
+  font-size: 8px;
+} */
+
+
+
+.mission_card{
+  margin-right: 15px;
+  width: 235px;
+}
+
+
+
+/* .mission_card .icon{
+  margin-top: 25px;
+margin-left: 15px;
+} */
+
+.paragraph3{
+  font-size: 14px;
+}
+.paragraph4{
+  font-size: 10px;
+}
+.testimonial{
+  margin-top: 150px;
+}
+
+.clientsec{
+  margin-top: 70px;
+}
 
 
 
@@ -708,6 +748,59 @@ text-align: center;
     .work .mob{
         margin-left: 50px;
     }
+    .mission_card{
+      margin-left: 35px;
+    }
+    .servicecard_resposive{
+      height: 380px;
+    }
+    .servicecard_resposive1{
+      height: 400px;
+    }
+    .servicecard_resposive2{
+      height: 450px;
+    }
+    .servicecard_resposive3{
+      height: 500px;
+    }
+    
+    .devops_card{
+      height: 360px;
+    }
+    
+
+.devops_card_work{
+  height: 450px;
+}
+.dataeng_card{
+  height: 390px;
+}
+
+.kubernet_services_card{
+  height: 380px;
+}
+
+.kubernet_services_work{
+  height: 480px;
+}
+
+.heading_h1{
+  font-size: 25px !important;
+}
+.heading_h5{
+  font-size: 15px !important;
+}
+.certificate_Section{
+  margin-left: 70px !important;
+}
+
+.certificate_Section img{
+  margin-top: 25px !important;
+}
+
+
+
+
   }
 
 @media only screen and (max-width: 380px) {
@@ -725,8 +818,25 @@ text-align: center;
 }
 }
 
+
+
+
+
+
+
+
+
 .heading_h1{
   font-size: 40px;
+}
+
+.security_icon{
+  font-size: 40px;
+  color: #00a8e8  ;
+}
+
+.card_text_paragraph1{
+  font-size: 15px;
 }
 
 #service {
@@ -742,11 +852,24 @@ text-align: center;
   width: 100%;
   height: 500px;
 }
+#testing_main{
+  background-image: url('../images/back1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+#devops_main{
+  background-image: url('../images/back1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
 
 
 @media only screen and (min-width: 720px) {
-  .heading_h1{
-    font-size: 50px;
-  }
+ 
   
 }
