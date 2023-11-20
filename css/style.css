@@ -811,7 +811,7 @@ margin-left: 15px;
         margin-left: 30px;
     }
     .technology{
-        height: 1950px;
+        height: 2270px;
     }
   }
 
@@ -819,7 +819,12 @@ margin-left: 15px;
     .work .mob{
         margin-left: 5px;
 }
+.technology{
+  height: 1970px;
 }
+}
+
+
 
 
 
